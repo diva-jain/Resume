@@ -1,0 +1,251 @@
+
+/*-- Ladscrap Or Other --*/
+@media(max-width:1280px) {
+
+    /*-- common --*/
+    .mainbody {
+        margin: 0;
+        padding: 20px 0px;
+        width: 100%;
+    }
+
+    .common {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .leftzone {
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+
+    .rightzone {
+        flex: 0 0 62%;
+        max-width: 62%;
+    }
+
+    .rightzone,
+    .leftzone,
+    .fullzone {
+        padding: 0px 5px;
+        overflow: hidden;
+        display: inline-block;
+        border-radius: unset;
+    }
+
+    .centezone {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    /*-- nav bar --*/
+    nav {
+        display: flex;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        margin-left: 4rem;
+        margin-right: 1rem;
+        overflow: hidden;
+        overflow-x: auto;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    nav li a {
+        font-size: 13px;
+        margin: 0px 5px;
+        padding: 0px 6px;
+        line-height: 40px;
+    }
+
+    nav ul::-webkit-scrollbar {
+        width: 5px;
+        height: 2px;
+    }
+
+    nav ul::-webkit-scrollbar-thumb {
+        background: linear-gradient(45deg, #4f5257, #787a7e);
+    }
+
+    nav ul::-webkit-scrollbar-track {
+        background-color: #cecece;
+    }
+
+    .resumebox ul {
+        padding: 0px 0;
+        padding-left: 15px;
+    }
+
+    nav:before {
+        width: 4rem;
+    }
+
+    .resumebox h4 {
+        padding: 30px 0px 5px;
+        font-size: 16px;
+        margin: 0px 0px 20px;
+    }
+
+    .resumebox p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .resumebox ul li span b {
+        font-size: 13px;
+    }
+
+    .resumebox ul li b {
+        font-size: 12px;
+    }
+
+    .resumebox ul li {
+        margin: 0px 0px 10px;
+    }
+}
+
+/*-- Mobile --*/
+@media(max-width:767px) {
+
+    /*-- common --*/
+    .mainbody {
+        margin: 0;
+        padding: 20px 0px;
+        padding-top: 60px;
+    }
+
+    .common {
+        flex-direction: column;
+    }
+
+    .leftzone {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .rightzone {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .rightzone,
+    .leftzone,
+    .fullzone {
+        padding: 0px 15px;
+        overflow: hidden;
+        display: inline-block;
+        border-radius: unset;
+    }
+
+    .centezone {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .leftzone {
+        margin-bottom: 30px;
+    }
+
+    .profileox,
+    .resumebox {
+        box-shadow: 0 .5rem 1.125rem rgb(103 118 128 / 16%) !important;
+
+    }
+
+    /*-- profile --*/
+    .profileox ul li {
+        gap: 13px;
+        margin: 0px 0px 20px;
+    }
+
+    .profbox {
+        padding: 30px 0px;
+    }
+
+    .profileox h2 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .profileox h3 {
+        font-size: 13px;
+        margin: 5px auto;
+        margin-bottom: 5px;
+    }
+
+    /*--  nav bar --*/
+    nav {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        border-radius: unset;
+    }
+
+    nav ul {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        display: flex;
+        overflow: hidden;
+        overflow-x: auto;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    nav:before {
+        display: none;
+    }
+
+    nav li a {
+        font-size: 13px;
+        margin: 0px 5px;
+        padding: 0px 10px;
+        line-height: 40px;
+    }
+
+    nav ul::-webkit-scrollbar {
+        width: 5px;
+        height: 2px;
+    }
+
+    nav ul::-webkit-scrollbar-thumb {
+        background: linear-gradient(45deg, #4f5257, #787a7e);
+    }
+
+    nav ul::-webkit-scrollbar-track {
+        background-color: #cecece;
+    }
+
+    .resumebox ul {
+        padding: 0px 0;
+        padding-left: 15px;
+    }
+
+    /*-- resume box --*/
+    .resumebox ul li span b {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .resumebox ul li p {
+        margin-bottom: 5px;
+    }
+
+    .resumebox ul li {
+        margin: 0px 0px 30px;
+    }
+
+    .resumebox ul.skill li {
+        margin: 0px 0px 15px;
+        font-size: 14px;
+    }
+}

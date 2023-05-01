@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.centezone {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+.common {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.fullzone {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.leftzone {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.rightzone,
+.leftzone,
+.fullzone {
+    padding: 0px 10px;
+    float: left;
+    display: inline-block;
+}
+
+.rightzone {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.leftzone h1,
+.leftzone h2,
+.leftzone h3,
+.leftzone h4,
+.leftzone h5,
+leftzone .h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*-- Larges Screen --*/
+
+@media(max-width: 1200px) {
+    .centezone {
+        max-width: 1140px;
+    }
+}
+
+
+/*-- Tab --*/
+
+@media(max-width: 1200px) {
+    .centezone {
+        max-width: 1140px;
+    }
+}
+
+
+/*-- Mobile --*/
+
+@media(max-width:767px) {
+    .centezone {
+        max-width: 100%;
+    }
+}

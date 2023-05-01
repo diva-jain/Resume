@@ -1,0 +1,336 @@
+.profileox,
+.resumebox {
+    box-shadow: 0 2.5rem 3.125rem rgb(103 118 128 / 26%) !important;
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+    transition: box-shadow .3s ease-in-out;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.mainbody {
+    position: relative;
+    margin: 0;
+    padding: 50px 0px;
+}
+
+
+/*-- profile right side --*/
+
+.profileox .picimg {
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 4px solid #4f5257;
+}
+
+.profileox .picimg img {
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    height: 100%;
+}
+
+.profileox h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.profileox h3 {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.profileox ul {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.profileox ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    margin: 0px 0px 15px;
+    padding: 0;
+}
+
+.profileox ul li span {
+    max-width: 32px;
+    max-height: 32px;
+    background: #4f5257;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    line-height: 35px;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.profileox ul li p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.profileox ul li a {
+    color: #000;
+}
+
+.profileox a.downloadcv {
+    width: 100%;
+    background: #000;
+    display: inline-block;
+    padding: 10px 0px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.8px;
+    transition: 0.5s all linear;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.leftzone .profileox {
+    position: sticky;
+    top: 0;
+}
+
+.leftzone .profileox {
+    top: 50px;
+}
+
+.profbox {
+    position: relative;
+    margin: 0;
+    padding: 10px 0px;
+    background: #f2f2f2;
+    border-radius: 6px;
+}
+
+.profileox a.downloadcv:after {
+    width: 100%;
+    height: 100%;
+    background: #4f5257;
+    transition: 0.5s all linear;
+    position: absolute;
+    content: '';
+    display: inline-block;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    left: -100%;
+}
+
+.profileox a.downloadcv:hover {
+    transition: 0.5s all linear;
+}
+
+.profileox a.downloadcv:hover:after {
+    transition: 0.5s all linear;
+    left: 0;
+}
+
+
+/*--  nav --*/
+
+nav {
+    background-color: #ffffff;
+    border-radius: 0 30px 0 0;
+    color: #5F6F81;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+
+nav:before {
+    content: '';
+    background-image: url(../img/nav-edge.svg);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7rem;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #eff0f0;
+    background-size: cover;
+}
+
+ nav li {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    font-size: 14px;
+    margin: 0px 5px;
+    padding: 0px 10px;
+    color: #000;
+    line-height: 60px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    padding-left: 8rem;
+    padding-right: 1rem;
+}
+
+/*--  about section --*/
+.resumebox {
+    border-radius: 5px 0px 10px 10px;
+    padding-top: 0;
+    background: #fff;
+}
+.resumebox h4 {
+    padding: 20px 0px 5px;
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    position: relative;
+    width: max-content;
+}
+
+.resumebox h4:after,
+.resumebox h4:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background: #000;
+    margin: 0;
+    display: block;
+    border-radius: 20px;
+    right: 0;
+}
+
+.resumebox h4:before {
+    background: #575c62;
+    left: 20px;
+}
+
+.resumebox h4:after {
+    left: 0px;
+}
+
+.resumebox p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Poppins';
+}
+
+.resumebox ul {
+    list-style: disc;
+    margin: 0;
+    padding: 0px 30px;
+}
+
+.resumebox ul li {
+    margin: 0px 0px 20px;
+    padding: 0;
+    line-height: unset;
+}
+
+.resumebox ul li p {
+    margin: 0;
+    padding: 0;
+}
+
+.resumebox ul li span {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #1b1c1e;
+}
+
+.resumebox ul li b {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.resumebox ul li span b {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.resumebox ul.skill li {
+    margin: 0px 0px 5px;
+    padding: 0;
+    font-size: 15px;
+}
+
+.resumebox ul li a {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.Experience ul li b {
+    margin-left: 0;
+    font-weight: 700;
+    color: #000;
+    display: inline-block;
+    width: 100%;
+}
+
+.Experience ul li span b {
+    margin-left: 0;
+}
+
+/* Scrollbar Styling */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 100px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #c7c3c3;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #2e3033, #50555b);
+}
